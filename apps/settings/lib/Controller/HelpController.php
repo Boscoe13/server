@@ -39,7 +39,7 @@ class HelpController extends Controller {
 
 	/** @var INavigationManager */
 	private $navigationManager;
-	/** @var IUserSession */
+	/** @var IURLGenerator */
 	private $urlGenerator;
 	/** @var IGroupManager */
 	private $groupManager;
